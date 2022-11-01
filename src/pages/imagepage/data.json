@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "cardImage": "images/photopage/1.webp",
+    "cardDes": "المجلس",
+    "cardDesSubtitle": "المساحة 4*4 مزود بسماعات وليزر",
+    "viewDes": "200",
+    "cardChatcounter":50
+  },
+  {
+    "id": 2,
+    "cardImage": "images/photopage/2.webp",
+    "cardDes": "التراس",
+    "cardDesSubtitle": "اجمل المشاوي والحفلات",
+    "viewDes": "700",
+    "cardChatcounter":20
+  },
+  {
+    "id": 3,
+    "cardImage": "images/photopage/3.webp",
+    "cardDes": "الملعب",
+    "cardDesSubtitle": "ملعب كرة الطائرة",
+    "viewDes": "150",
+    "cardChatcounter":10
+  },
+  {
+    "id": 4,
+    "cardImage": "images/photopage/4.webp",
+    "cardDes": "المدخل",
+    "cardDesSubtitle": "بشراع لكي يحمي السيارة",
+    "viewDes": "50"
+  },
+  {
+    "id": 5,
+    "cardImage": "images/photopage/5.webp",
+    "cardDes": "المسبح",
+    "cardDesSubtitle": "يستوعب الاظفال والكبار",
+    "viewDes": "70"
+  },
+  {
+    "id": 6,
+    "cardImage": "images/photopage/6.webp",
+    "cardDes": "العاب الاطفال",
+    "cardDesSubtitle": "تشكيلة من العاب الاطفال",
+    "viewDes": "55"
+  },
+  {
+    "id": 7,
+    "cardImage": "images/photopage/7.webp",
+    "cardDes": "مجلس الحريم",
+    "cardDesSubtitle": "المساحة 4*4 مزود بسماعات وليزر",
+    "viewDes": "88"
+  },
+  {
+    "id": 8,
+    "cardImage": "images/photopage/8.webp",
+    "cardDes": "صالة الطعام ",
+    "cardDesSubtitle": "المساحة 4*4 مزود بسماعات وليزر",
+    "viewDes": "99"
+  },
+  {
+    "id": 9,
+    "cardImage": "images/photopage/9.webp",
+    "cardDes": "مجلس اضافي",
+    "cardDesSubtitle": "المساحة 4*4 مزود بسماعات وليزر",
+    "viewDes": "99"
+  }
+]
