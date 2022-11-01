@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "offerImage": "images/photopage/1.webp",
+    "offerId": "1500",
+    "offerDetail": "خصومات 30% علي حفلات التخرج",
+    "OfferPrice": "200",
+    "offferUntil":"2022-11-14",
+    "isActive":true,
+    "isShow":false,
+    "isStarted":true,
+    "cardChatcounter":1333,
+    "viewcounter":150
+
+  },
+  {
+    "id": 2,
+    "offerImage": "images/photopage/1.webp",
+    "offerId": "8054",
+    "offerDetail": "يوم مجاني اذا جمعت 600 نقطة",
+    "OfferPrice": "200",
+    "offferUntil":"2022-11-20",
+    "isActive":true,
+    "isShow":false,
+    "isStarted":true,
+    "cardChatcounter":13,
+    "viewcounter":150
+
+  },
+  {
+    "id": 3,
+    "offerImage": null,
+    "offerId": "8451",
+    "offerDetail": "احجز يومين  واحصل علي الثالث مجاني",
+    "OfferPrice": "200",
+    "offferUntil":"2022-11-25",
+    "isActive":false,
+    "isShow":true,
+    "isStarted":true,
+    "cardChatcounter":1333,
+    "viewcounter":150
+
+  },
+  {
+    "id": 4,
+    "offerImage": "images/photopage/1.webp",
+    "offerId": "848484",
+    "offerDetail": "50% خصم كل يوم سبت",
+    "OfferPrice": "200",
+    "isActive":true,
+    "isShow":true,
+    "isStarted":true,
+    "offferUntil":"2022-11-19",
+    "cardChatcounter":1333,
+    "viewcounter":15
+
+  },
+  {
+    "id": 5,
+    "offerImage": "images/photopage/1.webp",
+    "offerId": "74848",
+    "offerDetail": "لاتفوت فرصت فرحتك بخصومات تصل لحد 90%",
+    "OfferPrice": "200",
+    "isActive":false,
+    "isShow":true,
+    "isStarted":true,
+    "offferUntil":"2022-12-04",
+    "cardChatcounter":1333,
+    "viewcounter":144
+
+  },
+  {
+    "id": 6,
+    "offerImage": "images/photopage/1.webp",
+    "offerId": "9664",
+    "offerDetail": "70% خصم كل يوم اثنين",
+    "OfferPrice": "200",
+    "isActive":true,
+    "isShow":true,
+    "isStarted":true,
+    "cardChatcounter":1333,
+    "viewcounter":14
+
+  },
+  {
+    "id": 7,
+    "offerImage": "images/photopage/1.webp",
+    "offerId": "74484",
+    "offerDetail": "50% خصم كل يوم سبت",
+    "OfferPrice": "200",
+    "offferUntil":"2022-11-04",
+    "isActive":false,
+    "isShow":true,
+    "isStarted":true,
+    "cardChatcounter":1333,
+    "viewcounter":1333
+    
+
+  },
+  {
+    "id": 8,
+    "offerImage": "images/photopage/1.webp",
+    "offerId": "8054",
+    "offerDetail": "50% خصم كل يوم سبت",
+    "offferUntil":"2022-11-04",
+    "OfferPrice": "200",
+    "isActive":true,
+    "isShow":true,
+    "isStarted":true,
+    "cardChatcounter":1333,
+    "viewcounter":144
+
+
+  }
+
+  ]

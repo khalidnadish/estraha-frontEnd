@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Pageheader from "../../components/pageheader/Pageheader"
 import OfferCard from "../../components/offerCard/OfferCard";
+import data from "./data.json"
 
 const Container = styled.div`
   display: flex;
@@ -13,12 +14,38 @@ const Offerpage = () => {
   return (
     <Container>
       <Pageheader title = {"العروض"}/>
-      <OfferCard endingTime={parseInt(Date.parse("2022-11-04"))}/>
-      <OfferCard endingTime={parseInt(Date.parse("2022-11-06"))}/>
-      <OfferCard endingTime={parseInt(Date.parse("2022-11-15"))}/>
-      <OfferCard endingTime={parseInt(Date.parse("2022-11-22"))}/>
-      <OfferCard endingTime={parseInt(Date.parse("2022-11-28"))}/>
-      <OfferCard endingTime={parseInt(Date.parse("2022-11-30"))}/>
+
+      {
+        data.map((el)=> 
+        {
+          return  (
+          <>
+          {el.isShow &&
+            <OfferCard 
+            key={el.id}
+            offerImage={el.offerImage}
+            offerId={el.offerId}
+            offerDetail={el.offerDetail}
+            offferUntil={parseInt(Date.parse(el.offferUntil))}
+            OfferPrice={el.OfferPrice}
+            isActive={el.isActive}
+            isShow={el.isShow}
+            isStarted={el.isStarted}
+            viewcounter={el.viewcounter}
+            cardChatcounter={el.cardChatcounter}
+                    
+            />
+          }
+          </>
+          )
+        }
+        )
+      }
+
+
+
+
+      
       {/* <OfferCard /> */}
      
       
