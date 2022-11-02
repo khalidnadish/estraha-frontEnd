@@ -17,3 +17,6 @@ netlex services
 
 - loyllity
   system
+
+  السيسة والشروط
+  وقت الدخول والخروج

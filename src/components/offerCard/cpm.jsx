@@ -47,12 +47,6 @@ export const Title = styled.h1`
   margin-right: 10px;
 `;
 
-export const Info = styled.div`
-  font-size: 14px;
-  color: ${({ theme }) => theme.textSoft};
-  margin-right: 10px;
-`;
-
 export const VewInfo = styled.div`
   display: flex;
   justify-content: center;
@@ -72,18 +66,7 @@ export const InfoWraper = styled.div`
   width: 100%;
 `;
 
-export const ClickImage = styled.img`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  background-color: #999;
-  border-radius: 8px;
-  margin: auto;
-  margin-top: 10px;
-  box-shadow: 0 0 10px #ddd inset;
-`;
+
 
 export const Hr = styled.hr`
   margin: 10px 0px;
@@ -91,11 +74,6 @@ export const Hr = styled.hr`
 
 `;
 
-const Buttons = styled.div`
-  display: flex;
-  gap: 10px;
-  color: ${({ theme }) => theme.text};
-`;
 
 
 export const OfferHeaderWrapper = styled.div`
@@ -157,7 +135,6 @@ export const OfferPriceTextWraper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid ${({ theme }) => theme.text}; */
   width: 100%;
 `;
 

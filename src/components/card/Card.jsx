@@ -14,7 +14,6 @@ import {
 import  {useTheme } from "styled-components";
 import { AiOutlineEye } from "react-icons/ai";
 import { FaRegCommentDots } from "react-icons/fa";
-
 import DiloagShow from "../../components/dailog/DiloagShow";
 import useToggle from "../../utils/hooks/toggleHooke";
 const Card = ({
@@ -30,7 +29,7 @@ const Card = ({
   const theme = useTheme();
 
   return (
-    // <Link to="/video/test" style={{ textDecoration: "none" }}>
+     
     <>
       <Container type={type} onClick={() => {toggle(true)}}>
         <Image type={type} src={cardimage} />

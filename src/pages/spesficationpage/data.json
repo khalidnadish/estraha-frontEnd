@@ -1,0 +1,10 @@
+[
+  { "id": 1, "spe_icon": "images/spesficaion/icons/babySwiming.png" , "spDescription": "مسبح اطفال" },
+  { "id": 2, "spe_icon": "images/spesficaion/icons/bigswimming.jpg", "spDescription": "مسبح للكبار" },
+  {"id": 3, "spe_icon":"images/spesficaion/icons/wifi.jpg", "spDescription": "واي فاي"},
+  { "id": 4, "spe_icon": "images/spesficaion/icons/babySwiming.png", "spDescription": "حفرة مندي" },
+  {"id": 5, "spe_icon": "images/spesficaion/icons/malesection.jpg", "spDescription": "قسم للرجال"},
+  { "id": 6, "spe_icon": "images/spesficaion/icons/femalesection.jpg", "spDescription": "قسم للحريم" },
+  {"id": 7, "spe_icon": "images/spesficaion/icons/kitchen.jpg", "spDescription": "مطبخ عصري متكامل"},
+  { "id": 8, "spe_icon": "images/spesficaion/icons/speackers.jpg", "spDescription": "سماعات" }
+]

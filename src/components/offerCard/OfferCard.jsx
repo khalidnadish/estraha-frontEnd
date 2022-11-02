@@ -1,29 +1,8 @@
 import React from "react";
-import Comments from "../comment/Comments";
+import control from "./index";
+import icons from "./icons";
 import CountdownTimer from "../CountdownTimer/CountdownTimer";
-import {
-  Container,
-  Image,
-  Details,
-  Texts,
-  Title,
-  Info,
-  InfoWraper,
-  VewInfo,
-  ClickImage,
-  Hr,
-  ReserveButton,
-  OfferHeaderWrapper,
-  OfferTexts,
-  OfferId,
-  Offerfinish,
-  OfferPriceText,
-  OfferPricecurrncy,
-  OfferPriceTextWraper
-} from "./cpm";
-import { useTheme } from "styled-components";
-import { AiOutlineEye } from "react-icons/ai";
-import { FaRegCommentDots } from "react-icons/fa";
+
 const OfferCard = ({
   offerImage,
   offerId,
@@ -31,76 +10,63 @@ const OfferCard = ({
   offferUntil,
   OfferPrice,
   isActive,
-  isShow,
-  isStarted,
-  cardText,
   viewcounter,
-  cardDesSubtitle,
   cardChatcounter,
-
   type,
 }) => {
- 
-  const theme = useTheme();
-
   return (
     <>
-      <Container  type={type}    >
+      <control.Container type={type}>
         {/*----- OfferHeaderWrapper ---*/}
-        <OfferHeaderWrapper>
-          <OfferTexts>رقم العرض</OfferTexts>
-          <OfferId>{offerId}</OfferId>
-          
-        </OfferHeaderWrapper>
-        
+
+        <control.OfferHeaderWrapper>
+          <control.OfferTexts>رقم العرض</control.OfferTexts>
+          <control.OfferId>{offerId}</control.OfferId>
+        </control.OfferHeaderWrapper>
+
         {/*----- OfferImage ---*/}
-        {offerImage && <Image type={type} src={offerImage} />}
-        <Details type={type}>
-          <Texts>
-            <InfoWraper>
-              <Title>{offerDetail}</Title>
-            </InfoWraper>
-            <Hr />
-            {/* <Info>{cardDesSubtitle}</Info> */}
+        {offerImage && <control.Image type={type} src={offerImage} />}
+        <control.Details type={type}>
+          <control.Texts>
+            <control.InfoWraper>
+              <control.Title>{offerDetail}</control.Title>
+            </control.InfoWraper>
+            <control.Hr />
 
             {isActive ? (
               <>
-                <OfferPriceTextWraper>
-                  <OfferPriceText>
+                <control.OfferPriceTextWraper>
+                  <control.OfferPriceText>
                     {OfferPrice}
-                    <OfferPricecurrncy>ريال</OfferPricecurrncy>
-                  </OfferPriceText>
-                  <ReserveButton>احجز الان</ReserveButton>
-                </OfferPriceTextWraper>
+                    <control.OfferPricecurrncy>ريال</control.OfferPricecurrncy>
+                  </control.OfferPriceText>
+                  <control.ReserveButton>احجز الان</control.ReserveButton>
+                </control.OfferPriceTextWraper>
               </>
             ) : (
-              <Offerfinish>انتهى العرض</Offerfinish>
+              <control.Offerfinish>انتهى العرض</control.Offerfinish>
             )}
 
             {isActive ? (
               <CountdownTimer countdownTimestampMs={offferUntil} />
             ) : null}
-            <Hr />
+            <control.Hr />
             {/*----- counters ---*/}
-            <VewInfo>
-              <AiOutlineEye /> {viewcounter}
-              <FaRegCommentDots /> {cardChatcounter}
-            </VewInfo>
-          </Texts>
-        </Details>
-      </Container>
-     
+            <control.VewInfo>
+              <icons.AiOutlineEye /> {viewcounter}
+              <icons.FaRegCommentDots /> {cardChatcounter}
+            </control.VewInfo>
+          </control.Texts>
+        </control.Details>
+      </control.Container>
     </>
   );
 };
 
-OfferCard.defaultProps =
-{
-
-  cardText:"offer1",
-  viewcounter:50,
-  cardDesSubtitle:"Offer Detail",
-  cardChatcounter:15
-
-}
+OfferCard.defaultProps = {
+  cardText: "offer1",
+  viewcounter: 50,
+  cardDesSubtitle: "Offer Detail",
+  cardChatcounter: 15,
+};
 export default OfferCard;
